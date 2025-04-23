@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5fdf6; 
+  color: #2e7d32; 
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1b5e20; 
+}
+
+button {
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c; 
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #c8e6c9; 
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form {
+  background-color: white;
+  border: 1px solid #c8e6c9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li strong {
+  color: #1b5e20; 
+}
+
+li button {
+  margin-left: 10px;
+}
+
+.chart-container {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: white;
+  border: 1px solid #c8e6c9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-icon i {
+  font-size: 20px;
+  color: #4caf50; 
+}
+
+.category-food {
+  color: #ff7043; 
+}
+
+.category-transport {
+  color: #42a5f5; 
+}
+
+.category-bills {
+  color: #ab47bc; 
+}
+
+.category-entertainment {
+  color: #fdd835;}
